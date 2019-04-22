@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How2Draw</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script src="../p5.min.js"></script>
+  <script src="../addons/p5.dom.min.js"></script>
+  <script src="../addons/p5.sound.min.js"></script>
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+  <div class="sidebar">
+    <ul>
+      <li>
+        <label for="color">Colour:</label>
+        <input type="color" id="color" />
+      </li>
+      <li>
+        <label for="weight">Stroke:</label>
+        <input type="number" id="weight" min="2" max="200" value="3" />
+      </li>
+      <li>
+        <button id="clear"><i class="fa fa-trash"></i></button>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
