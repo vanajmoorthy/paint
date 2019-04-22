@@ -4,11 +4,16 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 body {
   min-height: 100vh;
   font-family: 'Product Sans';
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
+  position: relative;
 }
 
 h4 {
@@ -71,27 +76,6 @@ h4 {
   margin-bottom: 3px;
 }
 
-footer {
-  background-color: #222;
-  color: #fff;
-  font-size: 14px;
-  bottom: 0;
-  position: fixed;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 999;
-}
-
-footer p {
-  margin: 10px 0;
-}
-
-footer i {
-  color: red;
-}
-
-footer a {
-  color: #3c97bf;
-  text-decoration: none;
+.sidebar button {
+  margin-bottom: 78vh;
 }
