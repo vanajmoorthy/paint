@@ -4,15 +4,12 @@
   box-sizing: border-box;
 }
 
-html, body {
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 body {
   min-height: 100vh;
   font-family: 'Product Sans';
   margin: 0;
-  /* overflow: hidden; */
+  overflow: hidden;
   position: relative;
 }
 

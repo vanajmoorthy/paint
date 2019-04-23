@@ -1,6 +1,7 @@
 const paths = [];
 let color;
 let weight;
+var fixed;
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
@@ -46,4 +47,13 @@ window.onload = function() {
     paths.splice(0);
     background(255);
   });
+
+  fixed = document.getElementById('defaultCanvas0');
+
+  fixed.addEventListener('touchmove', function(e) {
+
+    e.preventDefault();
+
+  }, false);
+
 }
